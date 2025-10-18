@@ -44,3 +44,5 @@ app.post("/estudiantes", (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor corriendo en el puerto ${port}`);
 });
+
+export default app;
